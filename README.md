@@ -14,4 +14,4 @@ Java Script
 
 
 <h3>Desktop/Mobile: </h3>
-<img src="https://github.com/Mayconcezar7/Estudo-responsividade-2/blob/main/assents/desktop.png">
+<img src="https://github.com/Mayconcezar7/coversor-de-moedas/blob/main/assents/conversorMoedasdesktop.png">
