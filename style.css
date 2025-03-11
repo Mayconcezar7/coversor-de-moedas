@@ -144,7 +144,7 @@ div{
 @media screen and (max-width: 404px){
     main{
         height: 100%;
-        width: 70vw;
+        width: 90vw;
     }
 
     label{
@@ -156,10 +156,31 @@ div{
 
     section{
         width: 100%;
-        height: 50%;
+        height: 60%;
+        padding: 15px;
        
         
     }
+    .moeda ,.moeda-a-coverter{
+        width: 100%;
+        height: 18px;
+        
     
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .valor ,.valor-a-converte{
+        width: 100%;
+        height: 10px;
+
+        font-size: 15px;
+    }
+
 
 }
