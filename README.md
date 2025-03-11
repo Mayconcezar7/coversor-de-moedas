@@ -14,4 +14,8 @@ Java Script
 
 
 <h3>Desktop/Mobile: </h3>
+<<<<<<< HEAD
 <img src="assents/conversorMoedasdesktop.png">
+=======
+<img src="https://github.com/Mayconcezar7/coversor-de-moedas/blob/main/assents/conversorMoedasdesktop.png">
+>>>>>>> 757c5dc1f01c014adb61833eafc4e6bc8924341f
