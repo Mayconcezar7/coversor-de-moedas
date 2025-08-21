@@ -2,19 +2,22 @@
 
 
 
-function convertValues(){
+async function convertValues(){
     const selectMoeda = document.querySelector(".currency-select").value
     const inputValues = document.querySelector(".inputMoeda").value
     const valorMoeda = document.querySelector(".valor")
     const valorMoedaConvertida = document.querySelector(".valor-a-converte")
 
-    const ValorDolarDia = 5.79
-    const ValorEuroDia = 6.27
-    const ValorLibraDia = 7.55
-    const ValorBitcoinDia = 486.885
-
     
 
+    const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then(resposta => resposta.json())
+
+    console.log(data)
+    
+    const ValorDolarDia = data.USDBRL.high
+    const ValorEuroDia = data.EURBRL.high
+    const ValorLibraDia = 7.37
+    const ValorBitcoinDia = data.BTCBRL.high
 
 
     if(selectMoeda == "dolar"){
